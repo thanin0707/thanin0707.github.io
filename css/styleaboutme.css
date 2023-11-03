@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 15px;
+    background-color: teal;
+}
+
+.logo a{
+    text-decoration: none;
+    color:rgb(250, 250, 250);
+    /*font-weight: bold;*/
+    font-size:25px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu li{
+    margin-left: 40px
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(250, 250, 250);
+}
+.menu img{
+    width: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+
+picture{
+    height: 500px;
+}
+
+.About{
+
+    color:#1a1a1a;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    align-items: center;
+}
+.About img{
+    width: 370px;
+}
+.Aboutmeme h2{
+    margin: 0;
+}
+
+.Aboutme>div h3{
+    margin-bottom: 18px;
+}
+.Aboutmeme{
+    text-align: center;
+}
+.Aboutmeme p{
+    text-align: center;
+    margin: 0;
+    
+}
+.habbit{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+.habbit h3{
+    margin-bottom: 0;
+}
+.habbit h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.About2{
+    text-align: center;
+}
+
+.Aboutme h3{
+    text-align: center;
+}
+
+.Aboutme p{
+    text-align: center;
+    font-size: 18px;
+}
+/* .Aboutmeme{
+    text-align: center;
+} */
+
+picture img{
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.banner{
+    background-color: teal;
+    color:aliceblue;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* grid-template-rows: 1fr 3fr; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.bannerpicture{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.contact img{
+    width: 100px;
+    
+}
+
+.contact h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact h3{
+    font-size: 20px;
+
+}
+
+.banner2{
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+li.current a{
+    /* border: 10px solid rgb(129, 240, 240); */
+    color: black;
+}
