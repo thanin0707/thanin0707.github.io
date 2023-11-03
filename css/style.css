@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 10px;
+    /* display: block; */
+    transition: top 0.3s;
+
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: teal;
+    /*font-weight: bold;*/
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0
+}
+
+.menu li{
+    margin-left: 40px
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#1a1a1a;
+
+}
+.menu img{
+    width: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner{
+    background-color: teal;
+    color:aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner info{
+    text-align: center;
+}
+.banner p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+main div{
+    padding: 20px;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid teal;
+}
+
+picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+picture > div{
+    border-left: 2px solid teal;
+    border-top: 2px solid teal;
+}
+
+picture >div >div{
+    border-top: 2px solid teal;
+}
+
+picture div a{
+    padding: 20px;
+    font-size: 27px;
+    display: grid;
+    text-align: center;
+    color: #1a1a1a;
+    /* border: 1px solid teal; */
+    text-decoration: none;
+}
+
+picture div{
+    text-align: center;
+}
+
+picture img{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 17.5px;
+}
+
+footer{
+    /* padding: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: teal;
+    color: rgb(238, 236, 236);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer p{
+    margin-top: 20px;
+}
+
